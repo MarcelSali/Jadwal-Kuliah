@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>205314042</title>
+      <style>
+        h1{
+            background-color: greenyellow;
+            text-align: center;  
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+        }
+        h2{
+            background-color: orange;
+            text-align: center;            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xx-large;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>KALKULATOR SEDERHANA</h1>
+    <script>
+        const input1 = prompt('Input Nilai Pertama : ')
+        const input2 = prompt('Input Operator : ')
+        const input3 = prompt('Input Nilai Kedua : ')
+        
+        if(input2 == '+'){
+            hasil1 = parseInt(input1)
+            hasil3 = parseInt(input3)
+
+            hasil2 = hasil1 + hasil3         
+            console.log('Hasil Penjumlahan dari ' +input1+ ' + ' +input3+ ' = '+ hasil2)
+        }
+
+        if(input2 == '-'){
+            hasil1 = parseInt(input1)
+            hasil3 = parseInt(input3)
+
+            hasil2 = hasil1 - hasil3
+            console.log('Hasil Pengurangan dari ' +input1+ ' - ' +input3+ ' = '+ hasil2)
+        }
+
+        if(input2 == '*'){
+            hasil1 = parseInt(input1)
+            hasil3 = parseInt(input3)
+
+            hasil2 = hasil1 * hasil3
+            console.log('Hasil Perkalian dari ' +input1+ ' * ' +input3+ ' = '+ hasil2)
+        }
+
+        if(input2 == '/'){
+            hasil1 = parseInt(input1)
+            hasil3 = parseInt(input3)
+
+            hasil2 = hasil1 / hasil3
+            console.log('Hasil Pembagian dari ' +input1+ ' / ' +input3+ ' = '+ hasil2)
+        }
+
+
+    </script>
+
+
+
+
+
+
+    <!-- <div>
+        <input  type="number" id="angka1">
+        <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>            
+        </select>
+        <input type="number" id="angka2">
+        <!-- <span>=</span> -->
+        <!-- <span id="hasil">hasil</span>
+        <br><br>
+        <b><button id="submit">Hitung</button></b>
+    </div>  
+    <script>
+        const angka1 = document.getElementById('angka1')
+        const angka2 = document.getElementById('angka2')
+        const operator = document.getElementById('operator')
+        const hasil = document.getElementById('hasil')
+        const submit = document.getElementById('submit')
+
+        submit.addEventListener('click', function(){
+            console.log(hasil.innerText = eval(angka1.value + operator.value + angka2.value))
+           
+        })
+
+    </script> --> 
+
+
+
+        <!-- <h2>MEMBALIK URUTAN HURUF DALAM SATU KATA</h2>     
+        <div>
+            <input type="text" id="input1">
+            <span>=</span>
+            <span id="hasil">hasil</span><br><br>
+            <b><button id="balik">Balik Kata</button></b>
+        </div>
+        <script>
+            // const input1 = document.getElementById('input1')
+
+            // balik.addEventListener('click', function(){
+            //     hasil.innerText = eval(split('').reverse().join('')) 
+            //     // return str
+            // })
+        </script> -->
+     
+</body>
+</html>

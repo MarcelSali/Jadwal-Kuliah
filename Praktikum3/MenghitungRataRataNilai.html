@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>205314042</title>
+    <style>
+      h1 {
+        background-color: greenyellow;
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MENGHITUNG NILAI RATA - RATA</h1>
+    <script>
+      const inputAwal = Number(prompt("Inputkan Jumlah Data Yang Ingin Di Rata - Ratakan : "));
+      const Nilai = [];
+      for (var i = 0; i < inputAwal; i++) {
+        Nilai.push(Number(prompt("Masukan Nilai Ke - " + Number(i + 1))));
+      }
+      var temp = 0;
+      Nilai.forEach((element) => {
+        temp += element;
+      });
+    //   alert(temp/inputAwal);
+      console.log('Rata - Rata = ' + temp/inputAwal)
+    </script>
+  </body>
+</html>

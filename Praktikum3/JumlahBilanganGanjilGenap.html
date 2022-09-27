@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>205314042</title>
+    <style>
+      h1 {
+        background-color: greenyellow;
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MENGHITUNG JUMLAH BILANGAN GENAP ATAU GANJIL DALAM SEBUAH RANGE BILANGAN TERTENTU</h1>
+
+    <script>
+       var genap = 0;
+       var ganjil = 0;
+       const input1 = prompt('Silahkan Masukan Nilai Awal  : ');
+       const input2 = prompt('SIlahkan Masukan Nilai Akhir : ');
+
+       hasil1 = parseInt(input1);
+       hasil2 = parseInt(input2);
+
+       for(var i = hasil1; i < hasil2; i++){
+            if(i % 2 == 0){
+                 genap += 1;                    
+            }else{
+                ganjil += 1;             
+            }
+       }         
+            console.log('Jumlah Bilangan Genap  : ' + genap);
+            console.log('Jumlah Bilangan Ganjil : ' + ganjil);      
+
+
+    </script>
+    
+
+  </body>
+  </html>
+  

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/g1.png" class="jumbo" />
+      <div class="thumbel"></div>
+      <img src="img/g1.png" class="thumble" />
+      <img src="img/g2.png" class="thumble" />
+      <img src="img/g3.png" class="thumble" />
+      <img src="img/g4.png" class="thumble" />
+      <img src="img/g5.png" class="thumble" />
+      <img src="img/g6.png" class="thumble" />
+    </div>
+  </body>
+</html>
