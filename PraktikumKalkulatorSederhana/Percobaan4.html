@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulator Tambah / Kurang</title>
+        <script type="text/javascript">
+            function tambah(){
+                var input1 = parseInt(document.getElementById('inputone').value);               
+                var input2 = parseInt(document.getElementById('inputtwo').value); 
+        
+                var hasil = input1 + input2;       
+                document.getElementById('hasil').value = hasil;               
+
+                // var tampil = document.getElementById('hasil');
+                // var tampil1 = document.getElementById('hasil1');
+            }
+
+            function kurang(){
+                var input1 = parseInt(document.getElementById('inputone').value);               
+                var input2 = parseInt(document.getElementById('inputtwo').value); 
+
+                var hasil1 = input1 - input2;
+                document.getElementById('hasil').value = hasil1;
+            }
+
+        </script>
+    </head>
+    <body>
+        <form action="#">
+        <label for="inputone">Bilangan 1</label>
+        <input type="text" id="inputone" />
+
+        <br></br>
+
+        <label for="inputtwo">Bilangan 2</label>
+        <input type="text" id="inputtwo" />
+
+        <br></br>
+
+        <button for="hasil" onclick="tambah()">Tambah</button>
+        <button for="hasil1" onclick="kurang()">Kurang</button>
+
+        <br></br>
+
+        <label">Hasil</label>
+        <input type="text" id="hasil"/>
+
+
+    </form>
+    </body>
+</html>

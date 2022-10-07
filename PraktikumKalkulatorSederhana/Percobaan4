@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulator Tambah / Kurang</title>
+        <script type="text/javascript">
+            function tambah(){
+                var input1 = document.getElementById('inputone');
+                var input2 = document.getElementById('inputtwo');
+            }
+
+        </script>
+    </head>
+    <body>
+        <label for="inputone">Bilangan 1</label>
+        <label for="inputtwo">Bilangan 2</label>
+
+    </body>
+</html>

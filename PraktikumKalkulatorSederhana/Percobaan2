@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menggunakan Array</title>
+        <script type="text/javascript">
+            function showDaftarBunga(){
+                var listBunga = ['Mawar', 'Melati', 'Kamboja'];
+                var htmlBunga = "<ol>";
+                 
+            }
+        </script>
+    </head>
+</html>
